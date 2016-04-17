@@ -31,9 +31,6 @@ def get_contestant_name(data, occupation)
   name
 end
 
-#data = { "season 10"=>[{"name" => "Nikki Ferrell","age"=> "26","hometown"=> "Kearney, Missouri","occupation"=> "Pediatric Nurse","status"=> "Winner"},{"name"=> "Paige Vigil","age"=> "25","hometown"=> "Cranston, Rhode Island","occupation"=> "Jumbotron Operator","status"=> "Eliminated in episode 1"}]}
-#get_first_name_of_season_winner(data, "season 10")
-
 def count_contestants_by_hometown(data, hometown)
   counter = 0
   data.each do |season, contestants|
